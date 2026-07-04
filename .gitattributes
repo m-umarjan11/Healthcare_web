@@ -1,0 +1,5 @@
+*.html linguist-detectable=false
+*.pptx linguist-detectable=false
+*.ppt linguist-detectable=false
+*.csv linguist-detectable=false
+*.pkl linguist-detectable=false

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript
+node_modules/
+dist/
+build/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+env/
+
+# Generated chatbot files
+# (vectorstore/ is committed on purpose - the deployed backend needs the
+# FAISS index at runtime and has no way to rebuild it from PDFs on its own)
+Medical Chatbot/data/
+Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning/models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
